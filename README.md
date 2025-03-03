@@ -37,6 +37,10 @@ Input Features: Credit Score, Geography, Gender, Age, Tenure, Balance, Products,
 
 Output: Churn Probability (0 - Not Churn, 1 - Churn)
 
-2. Regression APP web site
+1. Classification APP Website
+
+   https://annchurn-djzqyvmckhg4xp4ch5sohi.streamlit.app
+
+3. Regression APP Website
 
    https://annchurn-4k6msjojgnbphknexjyhnp.streamlit.app/#8a1678ef
