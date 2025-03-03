@@ -36,3 +36,7 @@ Architecture: Artificial Neural Network (ANN)
 Input Features: Credit Score, Geography, Gender, Age, Tenure, Balance, Products, Credit Card, Active Status, Salary
 
 Output: Churn Probability (0 - Not Churn, 1 - Churn)
+
+2. Regression APP web site
+
+   https://annchurn-4k6msjojgnbphknexjyhnp.streamlit.app/#8a1678ef
