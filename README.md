@@ -1,41 +1,24 @@
 # ANN_churn
 
-📌 Overview
-This project is a Customer Churn Prediction System using Artificial Neural Networks (ANN). It predicts whether a customer is likely to churn (leave a service) based on various customer attributes like credit score, balance, age, and account activity.
+This repository contains an Artificial Neural Network (ANN) implementation for predicting customer churn. It includes two models:
 
-The project is built using TensorFlow/Keras for training the model and deployed as a web app using Streamlit.
+Classification Model 🏷️: Predicts whether a customer will churn (1) or not (0).
+Regression Model 💰: Estimates the expected salary of a customer based on their profile.
+Project Overview
+Customer churn prediction is crucial for businesses to retain valuable customers. This project leverages deep learning to analyze customer data and provide insights into churn behavior and salary estimation.
 
-🚀 Features
+Features
+✅ Binary Classification Model - Uses an ANN to classify customer churn status.
+✅ Regression Model - Predicts estimated salary using deep learning.
+✅ Streamlit App - Interactive UI to input customer details and get predictions.
+✅ Preprocessing Pipelines - Label encoding, one-hot encoding, and feature scaling.
+✅ Model Deployment - Trained models are loaded for real-time inference.
 
-✅ Customer Input Form – Users can input details like age, credit score, and balance
+Tech Stack
+🔹 Python (TensorFlow, Keras, Pandas, NumPy, Scikit-learn)
+🔹 Deep Learning (ANN with multiple layers)
+🔹 Streamlit (For the interactive UI)
 
-✅ One-Hot Encoding & Scaling – Preprocesses categorical and numerical data
-
-✅ Neural Network Model – Uses a trained ANN to predict churn probability
-
-✅ Interactive Web App – Built with Streamlit for easy access and visualization
-
-
-
-🛠️ Tech Stack
-
-Python (Data Processing, Model Training)
-
-TensorFlow/Keras (Deep Learning)
-
-Pandas & NumPy (Data Manipulation)
-
-Scikit-Learn (Preprocessing)
-
-Streamlit (Web App Deployment)
-
-📊 Model Details
-
-Architecture: Artificial Neural Network (ANN)
-
-Input Features: Credit Score, Geography, Gender, Age, Tenure, Balance, Products, Credit Card, Active Status, Salary
-
-Output: Churn Probability (0 - Not Churn, 1 - Churn)
 
 1. Classification APP Website
 
